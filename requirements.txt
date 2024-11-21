@@ -1,5 +1,4 @@
 Flask==2.2.3
-threading==0.1.0
 opencv-python==4.8.0.76
 numpy==1.24.3
 Pillow==9.4.0
