@@ -15,6 +15,10 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 import datetime
 
+from werkzeug.urls import url_quote
+from urllib.parse import quote as url_quote
+
+
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 # Model Paths
