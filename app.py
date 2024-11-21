@@ -332,4 +332,4 @@ def delete_files_after_delay(files, delay):
             
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=501, debug=True)
+    app.run(debug=True)
