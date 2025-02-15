@@ -19,7 +19,7 @@ const Mainform = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('/upload', {
+      const response = await fetch('https://dyslexia-detection-assistance.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
